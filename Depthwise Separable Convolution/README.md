@@ -1,3 +1,5 @@
+# Depthwise Separable Convolution
+
 * In standard convolution, small local region of input image in spatial domain is taken to be convolved with the kernel, and this region changes as 
 the filter kernel is shifted through image context. However, the extent of connectivity along depth axis is full. In other words, all channels are 
 together convolved; hence, the depth of the kernel is equal to the depth of input that will be convolved. 
