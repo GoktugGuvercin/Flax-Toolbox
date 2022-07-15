@@ -1,3 +1,4 @@
+# Spatial Pyramid Pooling Layer:
 
 * Fully-connected layers at the end of networks as target label predictor need to know how many number of features will be coming from feature maps 
 extracted by convolutional backbone. This automatically creates fixed-size constraint on input images fed to the networks. 
